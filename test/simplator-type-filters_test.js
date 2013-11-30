@@ -1,8 +1,9 @@
 'use strict';
 
-var expect = require("expect.js");
-var simplator_type_filters = require("../lib/simplator-type-filters");
-var simplator = require("simplator");
+var expect = require("expect.js"),
+    moment = require("moment"),
+    simplator_type_filters = require("../lib/simplator-type-filters"),
+    simplator = require("simplator");
 
 
 describe("simplator_type_filters", function () {
@@ -17,9 +18,9 @@ describe("simplator_type_filters", function () {
     });
 
     describe("date", function () {
-        it("is defined", function () {
+        it("it defined", function () {
             var tmpl = simplator.compile("{0 | date}");
-            expect(tmpl()).to.be.equal('1970-01-01T01:00:00+01:00');
+            expect(tmpl()).to.be.equal(moment(0).format());
         });
 
         it("accept format", function () {
