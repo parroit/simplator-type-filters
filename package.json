@@ -30,5 +30,16 @@
     "expect.js": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3"
   },
-  "keywords": ['simplator','template','filters','currency','money','date','dates']
+  "keywords": [
+    "simplator",
+    "template",
+    "filters",
+    "currency",
+    "money",
+    "date",
+    "dates"
+  ],
+  "dependencies": {
+    "simplator": "0.0.3"
+  }
 }
