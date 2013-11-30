@@ -45,6 +45,6 @@
     "dependencies": {
         "simplator": "~0.0.3",
         "moment": "~2.4.0",
-        "account": "~0.3.2"
+        "accounting": "~0.3.2"
     }
 }
