@@ -1,4 +1,4 @@
-# simplator-type-filters [![Build Status](https://secure.travis-ci.org/parroit/simplator-type-filters.png?branch=master)](http://travis-ci.org/parroit/simplator-type-filters) simplator-type-filters [![Npm module](https://badge.fury.io/js/simplator-type-filters.png)](https://npmjs.org/package/simplator-type-filters)
+# simplator-type-filters [![Build Status](https://secure.travis-ci.org/parroit/simplator-type-filters.png?branch=master)](http://travis-ci.org/parroit/simplator-type-filters) [![Npm module](https://badge.fury.io/js/simplator-type-filters.png)](https://npmjs.org/package/simplator-type-filters)
 
 [Simplator][] filters for simple types formatting.
 
